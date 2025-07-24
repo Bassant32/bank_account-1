@@ -55,7 +55,7 @@ def main():
         if entered_number == 1:
             check_account(name, balance)
         elif entered_number == 2:
-            balance = deposit(balance)
+            balance = deposite(balance)
             check_account(name, balance)
         elif entered_number == 3:
             balance = withdraw(balance)
