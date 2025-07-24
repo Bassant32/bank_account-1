@@ -42,7 +42,7 @@ def main():
     while True:
         print("\nMAIN MENU")
         print("1: Check account")
-        print("2: Deposite to balance")
+        print("2: Deposit to balance")
         print("3: Withdraw from balance")
         print("4: Exit")
         
@@ -55,7 +55,7 @@ def main():
         if entered_number == 1:
             check_account(name, balance)
         elif entered_number == 2:
-            balance = deposite(balance)
+            balance = deposit(balance)
             check_account(name, balance)
         elif entered_number == 3:
             balance = withdraw(balance)
@@ -68,4 +68,3 @@ def main():
             print("Invalid number, try again.")
 
 main()
-
